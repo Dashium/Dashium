@@ -1,0 +1,26 @@
+{
+  "name": "dashium",
+  "version": "1.0.0",
+  "description": "customize dashboard",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dashium/Dashium.git"
+  },
+  "keywords": [
+    "dashboard"
+  ],
+  "author": "Tai Tetsuyuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dashium/Dashium/issues"
+  },
+  "homepage": "https://github.com/Dashium/Dashium#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
