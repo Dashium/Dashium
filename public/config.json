@@ -1,0 +1,16 @@
+{
+    "home": {
+        "tiles": {
+            "0": {
+                "type": "text",
+                "content": "${titleS}Welcome to Dashium.${titleH}${enter}V1.0${enter}${centerS}Tai Tetsuyuki${centerH}",
+                "display": "radius center border"
+            },
+            "1": {
+                "type": "text",
+                "content": "comment",
+                "display": "center"
+            }
+        }
+    }
+}
