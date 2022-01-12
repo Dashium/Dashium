@@ -1,0 +1,29 @@
+{
+  "name": "dashium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dashium/Dashium.git"
+  },
+  "keywords": [
+    "dashium",
+    "server",
+    "open-source"
+  ],
+  "author": "Tai Tetsuyuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dashium/Dashium/issues"
+  },
+  "homepage": "https://github.com/Dashium/Dashium#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.4.1"
+  }
+}
