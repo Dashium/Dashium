@@ -10,6 +10,26 @@
                 "type": "text",
                 "content": "comment",
                 "display": "center"
+            },
+            "2": {
+                "type": "text",
+                "content": "ça",
+                "display": "center"
+            },
+            "3": {
+                "type": "text",
+                "content": "va",
+                "display": "center"
+            },
+            "4": {
+                "type": "text",
+                "content": "?",
+                "display": "center"
+            },
+            "40": {
+                "type": "module",
+                "content": "",
+                "display": "center"
             }
         }
     }

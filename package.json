@@ -1,29 +1,38 @@
 {
-  "name": "dashium",
+  "name": "dashiumwebserver",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "web server for dashium",
+  "main": "main.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node main.js",
+    "setup": "npm-run-all setup:*",
+    "setup:install": "npm install",
+    "setup:start": "npm start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dashium/Dashium.git"
+    "url": "git+https://github.com/Dashium/DashiumWebServer.git"
   },
   "keywords": [
-    "dashium",
+    "web",
     "server",
-    "open-source"
+    "open",
+    "source",
+    "dashium"
   ],
   "author": "Tai Tetsuyuki",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Dashium/Dashium/issues"
+    "url": "https://github.com/Dashium/DashiumWebServer/issues"
   },
-  "homepage": "https://github.com/Dashium/Dashium#readme",
+  "homepage": "https://github.com/Dashium/DashiumWebServer#readme",
   "dependencies": {
-    "express": "^4.17.2",
+    "finalhandler": "^1.1.2",
+    "fs": "^0.0.1-security",
     "http": "^0.0.1-security",
+    "npm-run-all": "^4.1.5",
+    "serve-index": "^1.9.1",
+    "serve-static": "^1.14.2",
     "socket.io": "^4.4.1"
   }
 }
