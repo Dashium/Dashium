@@ -1,0 +1,31 @@
+{
+  "name": "dashiumcron",
+  "version": "1.0.0",
+  "description": "cron task for dashium",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dashium/DashiumCron.git"
+  },
+  "keywords": [
+    "Dashium",
+    "open-source",
+    "cron"
+  ],
+  "author": "Tai Tetsuyuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dashium/DashiumCron/issues"
+  },
+  "homepage": "https://github.com/Dashium/DashiumCron#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "node-cron": "^3.0.0",
+    "path": "^0.12.7"
+  }
+}

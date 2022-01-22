@@ -1,0 +1,38 @@
+{
+    "default": {
+        "pr_name": "default",
+        "repo": "https://github.com/Dashium/Dashium.git",
+        "install_cmd": "npm install",
+        "cron": {
+            "date_time": {
+                "cmd": "bash",
+                "file": "./",
+                "arg": "",
+                "active": false,
+                "infos": {
+                    "running_count": 0,
+                    "running_time": 0,
+                    "error_code": null
+                }
+            }
+        }
+    },
+    "dashium": {
+        "pr_name": "Dashium Cron",
+        "repo": "https://github.com/Dashium/DashiumCron.git",
+        "install_cmd": "npm install",
+        "cron": {
+            "0 12 * * *": {
+                "cmd": "bash",
+                "file": "./DashiumCron/setup/update.sh",
+                "arg": "",
+                "active": true,
+                "infos": {
+                    "running_count": 0,
+                    "running_time": 0,
+                    "error_code": null
+                }
+            }
+        }
+    }
+}
