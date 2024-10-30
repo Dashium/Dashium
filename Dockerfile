@@ -17,9 +17,9 @@ RUN \
 
 WORKDIR /app
 
-EXPOSE 3000
+EXPOSE 80
 
-ENV PORT=3000
+ENV PORT=80
 
 # server.js is created by next build from the standalone output
 # https://nextjs.org/docs/pages/api-reference/next-config-js/output
